@@ -16,4 +16,4 @@ WORKDIR /app
 ENTRYPOINT ["./rustdesk-api-server"]
 
 # 导出端口号
-EXPOSE [21114]
+EXPOSE 21114
