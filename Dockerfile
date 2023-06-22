@@ -1,3 +1,9 @@
+FROM golang:1.19 as builder
+WORKDIR /project
+ADD . .
+RUN make build
+
+
 FROM alpine:3.15
 RUN mkdir /app
 

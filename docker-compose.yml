@@ -1,0 +1,11 @@
+version: "3"
+services:
+  rustdesk:
+    build:
+      context: .
+    image: registry.cn-shanghai.aliyuncs.com/onekr/rustdesk-api-server:latest
+    container_name: rustdesk-api-server
+    restart: always
+    ports:
+      - "21114:21114"
+

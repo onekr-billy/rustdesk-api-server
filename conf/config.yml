@@ -1,0 +1,10 @@
+dbtype: 'mysql'
+mysql:
+  host: 'basic.onekr.cn'
+  port: 3306
+  database: 'rustdesk'
+  username: 'u_rustdesk'
+  password: '6GrbdCyG7Wy3rK'
+app:
+  authkey: zhangbin
+  cryptkey: NanEVhjEwuPSemoJkwc1EcjDJRVWcZfb9bIIZcBeswhPP
