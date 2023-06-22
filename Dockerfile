@@ -4,7 +4,7 @@ ADD . .
 RUN make build
 
 
-FROM alpine:3.15
+FROM alpine
 RUN mkdir /app
 
 # 复制配置文件
