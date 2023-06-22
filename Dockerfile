@@ -10,10 +10,10 @@ RUN mkdir /app
 # 复制配置文件
 COPY conf /app/conf
 
+# 导出端口号
+EXPOSE 21114
+
 # 复制主文件
 COPY rustdesk-api-server /app
 WORKDIR /app
 ENTRYPOINT ["./rustdesk-api-server"]
-
-# 导出端口号
-EXPOSE 21114
