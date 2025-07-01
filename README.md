@@ -107,3 +107,8 @@ http://127.0.0.1:21114/api/set-pwd?username=test&password=test&auth_key=123456
 由于RustDesk接口固定返回内容= =所以接口返回结构不是很统一
 
 ## 赞助
+
+本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助
+![image](https://github.com/user-attachments/assets/4fb7a50c-a39c-4196-b613-380908371283)
+
+[亚洲最佳CDN、边缘和安全解决方案 - Tencent EdgeOne](https://edgeone.ai/zh?from=github)
